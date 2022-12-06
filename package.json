@@ -10,7 +10,14 @@
   },
   "lint-staged": {
     "*.{ts,vue}": [
+      "prettier --write",
       "eslint --fix"
+    ],
+    "*.{md}": [
+      "prettier --write"
+    ],
+    "*.{css,vue,sccs}": [
+      "prettier --write"
     ]
   },
   "devDependencies": {
