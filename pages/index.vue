@@ -6,7 +6,7 @@
     <v-btn color="success">ボタン</v-btn>
   </div>
 </template>
-<script>
+<script lang="ts">
 // noinspection JSUnusedGlobalSymbols
 export default {
   name: 'PagesIndex'
